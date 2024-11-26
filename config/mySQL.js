@@ -2,7 +2,7 @@ const mysql = require('mysql2');
 
 // Configuración de la conexión
 const connection = mysql.createConnection({
-    host: '127.0.0.1',       // tu host de MySQL
+    host: '0.0.0.0',       // tu host de MySQL
     user: 'root',       // Usuario de MySQL
     password:'r00t1234', // Contraseña de MySQL
     database: 'biblioteca_gestion', // Nombre de la base de datos
